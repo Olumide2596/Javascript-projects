@@ -36,7 +36,7 @@ h1 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 100%;
+	width: 80%;
 	margin: 20px auto;
 	gap: 10px;
 }
@@ -110,6 +110,9 @@ a {
 @media screen and (max-width: 600px) {
 	header {
 		margin: 50px auto;
+	}
+	.container {
+		width: 100%;
 	}
 	.gallery:nth-child(4),
 	.gallery:nth-child(5) {
