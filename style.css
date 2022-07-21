@@ -103,4 +103,8 @@ ul {
 		width: 70%;
 		margin-bottom: 70px;
 	}
+
+	body {
+		height: auto;
+	}
 }
