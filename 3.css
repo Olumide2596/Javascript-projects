@@ -1,0 +1,20 @@
+body {
+	font-size: 18px;
+	line-height: 1.5;
+	font-family: 'Muli', sans-serif;
+	width: 100vw;
+	height: 100vh;
+	max-width: 1440px;
+	padding: 10px;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+h1 {
+	margin: 0 auto 70px auto;
+	text-align: center;
+	text-transform: capitalize;
+	color: #000;
+}
