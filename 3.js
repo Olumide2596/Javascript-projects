@@ -203,35 +203,6 @@ console.log(movementsUsd);
 //   console.log(`you have ${movements[i]} in your account`);
 // }
 /** 
-movements.forEach((movements, index, array) => {
-  if (movements < 0) {
-    console.log(`Movement ${index + 1} you withdrew ${Math.abs(movements)}`);
-  } else {
-    console.log(
-      `Movement ${index + 1} you deposited ${movements} in your bank account`
-    );
-  }
-});
-
-//MAPS
-const currencies = new Map([
-  ['USD', 'United States dollar'],
-  ['EUR', 'Euro'],
-  ['GBP', 'Pound sterling'],
-]);
-
-currencies.forEach(function (value, key, map) {
-  console.log(`${key}: ${value}`);
-});
-
-const currentciesSet = new Set(['USD', 'EUR', 'GBP', 'EUR', 'GBP']);
-
-console.log(currentciesSet);
-currentciesSet.forEach(function (value, key, map) {
-  console.log(`${key}: ${value}`);
-});
-
-//////////////////////////////////////////
 
 const checkDogs = function (dogsJulia, dogsKate) {
   const arr = dogsJulia.slice(1, -2);
